@@ -9,9 +9,9 @@ async def measure_runtime -> float:
     """
     measure_runtime - function execute async_com 4 times
     Arguments:
-    nothing
+        nothing
     Returns:
-    the total execution time required to complete the task
+        the total exection time required to complete the task
     """
     t_start = time.perf_counter()
     task = [async_comprehension() for i in range(4)]
